@@ -15,7 +15,7 @@ public class DBTesterTests {
 
     @Test
     public void test_execute() throws IOException {
-        String[] params = {"evcs-eans.zip", "9999999990007", "9999999990007^1"};
+        String[] params = {"sampleleveldb.zip", "9999999990007", "9999999990007^1"};
         String actual = this.sut.execute(params);
         String expected = "true";
         Assert.assertEquals(expected, actual);
