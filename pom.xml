@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>justdigital</groupId>
-    <artifactId>evcs-db-validator</artifactId>
-    <version>0.1</version>
+    <artifactId>leveldb-keyvalue-matcher</artifactId>
+    <version>0.1.2</version>
     <build>
         <plugins>
             <plugin>
